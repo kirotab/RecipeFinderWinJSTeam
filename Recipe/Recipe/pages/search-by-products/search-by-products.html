@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>search-by-products</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="search-by-products.css" rel="stylesheet" />
+    <script src="search-by-products.js"></script>
+    <style>
+        #all-products-list {
+            height: 80%;
+            padding-right:200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="product-template" data-win-control="WinJS.Binding.Template">
+        <div class="item-template">
+            <div style="background-repeat: no-repeat; height: 100px; width: 200px; background-size: 100px 100px;"
+                data-win-bind="style.backgroundImage : thumbUrl MyConverters.cssUrl;">
+                <div style="float:right;">
+                    <p class="item-name" data-win-bind="innerText:name" style="display: inline-block;width:100px;right:0;"></p>
+                    <br />
+                    <p class="item-category" data-win-bind="innerText:category" style="display: inline-block;right:0;width:100px;"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="search_by_products fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Available products</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div id="all-products-list" data-win-control="WinJS.UI.ListView" data-win-options="{
+                itemDataSource: ViewModels.allProducts.dataSource,
+                itemTemplate: select('#product-template'),
+               tapBehavior: 'toggleSelect',
+                swipeBehavior: 'select',
+                selectionMode: 'multi'}">
+            </div>
+            <div id="appbar-id" data-win-control="WinJS.UI.AppBar" data-win-options="">
+                <button data-win-control="WinJS.UI.AppBarCommand"
+                    data-win-options="{
+                    id:'cmdSearch',
+                    label:'Search by selected',
+                    icon:'find',
+                    section:'selection',
+                    tooltip:'Search by selected products'
+                    }">
+                </button>
+                <button
+                    data-win-control="WinJS.UI.AppBarCommand"
+                    data-win-options="{
+                    id:'cmdRemove',
+                    label:'Remove selected',
+                    icon:'remove',
+                    section:'selection',
+                    tooltip:'Remove selected from fridge'
+                    }">
+                </button>
+                <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+                    id:'cmdAdd',
+                    label:'Add new product',
+                    icon:'add',
+                    section:'section',
+                    tooltip: 'Add new product to refrigerator'
+                    }">
+                </button>
+                <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+                    id:'cmdAddSelected',
+                    label:'Add selected to fridge',
+                    icon:'add',
+                    section:'section',
+                    tooltip: 'Add selected products to refrigerator'
+                    }">
+                </button>
+            </div>
+            <p>
+                Please choose your available products.When ready click on the search button that will appear in the bottom.
+                Beware!-not all products will return a suitable recipe.
+                <br />
+                You can also add products to your fridge to remind you what you have.Just click on the item in the list and then
+                select Add to fridge button that will appear in the bottom.
+            </p>
+        </section>
+    </div>
+</body>
+</html>

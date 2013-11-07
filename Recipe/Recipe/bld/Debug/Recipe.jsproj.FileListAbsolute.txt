@@ -1,0 +1,13 @@
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bin\Debug\resources.pri
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bin\Debug\AppxManifest.xml
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bin\Debug\Recipe.build.appxrecipe
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\priconfig.xml.intermediate
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\layout.resfiles.intermediate
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\resources.resfiles.intermediate
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\pri.resfiles.intermediate
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\priconfig.xml
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\layout.resfiles
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\resources.resfiles
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\pri.resfiles
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\LanguageQualifiers.txt
+C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bld\Debug\ProjectArchitectures.txt

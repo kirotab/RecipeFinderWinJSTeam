@@ -1,0 +1,22 @@
+Liquids, Balsamic Vinegar, /images/Liquids/balsamicvinegar.jpg
+Liquids, Bourbon Whiskey, /images/Liquids/bourbonwhiskey.jpg
+Liquids, Brandy, /images/Liquids/brandy.jpg
+Liquids, Canadianwhiskey, /images/Liquids/canadianwhiskey.jpg
+Liquids, Creme De Cassis, /images/Liquids/cremedecassis.jpg
+Liquids, Darkrum, /images/Liquids/darkrum.jpg
+Liquids, Gin, /images/Liquids/gin.jpg
+Liquids, Goldrum, /images/Liquids/goldrum.jpg
+Liquids, Irish Whiskey, /images/Liquids/irishwhiskey.jpg
+Liquids, Lightrum, /images/Liquids/lightrum.jpg
+Liquids, Beer, /images/Liquids/pilsnerbeer.jpg
+Liquids, Plain Water, /images/Liquids/plainwater.jpg
+Liquids, Red Wine, /images/Liquids/redwine8.jpg
+Liquids, Scotch Whisky, /images/Liquids/scotchwhisky.jpg
+Liquids, Seltzer Water, /images/Liquids/seltzerwater.jpg
+Liquids, Tennessee whiskey, /images/Liquids/tennesseewhiskey.jpg
+Liquids, Tequila, /images/Liquids/tequila.jpg
+Liquids, Redraspberry Vinegar, /images/Liquids/vinegar-redraspberry.jpg
+Liquids, Redwine Vinegar, /images/Liquids/vinegar-redwine.jpg
+Liquids, Tarragon Vinegar, /images/Liquids/vinegar-tarragon.jpg
+Liquids, Vinegar, /images/Liquids/vinegar-winegroup.jpg
+Liquids, Vodka, /images/Liquids/vodka.jpg

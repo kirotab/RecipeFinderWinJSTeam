@@ -1,0 +1,52 @@
+Fruits, Apricot Jam, /images/Fruits/apricotpreserves.jpg
+Fruits, Apricot, /images/Fruits/apricots.jpg
+Fruits, Bananas, /images/Fruits/bananas.jpg
+Fruits, Berries, /images/Fruits/berries.jpg
+Fruits, Blackberries, /images/Fruits/blackberries.jpg
+Fruits, Blackcurrant Jelly, /images/Fruits/blackcurrantjelly.jpg
+Fruits, Blackcurrants, /images/Fruits/blackcurrants.jpg
+Fruits, Blueberries, /images/Fruits/blueberries.jpg
+Fruits, Blueberry Jam, /images/Fruits/blueberrypreserves.jpg
+Fruits, Carambola, /images/Fruits/carambola.jpg
+Fruits, Cherries, /images/Fruits/cherries.jpg
+Fruits, Coconut, /images/Fruits/coconut.jpg
+Fruits, Papaya, /images/Fruits/cookingpapaya.jpg
+Fruits, Cranberries, /images/Fruits/cranberries.jpg
+Fruits, Dried Apples, /images/Fruits/driedapples.jpg
+Fruits, Dried Apricots, /images/Fruits/driedapricots.jpg
+Fruits, Dried Cherries, /images/Fruits/driedcherries.jpg
+Fruits, Dried Bannana Chips, /images/Fruits/driedfruit-bananachips.jpg
+Fruits, Dried Fruit, /images/Fruits/driedfruit-group.jpg
+Fruits, Dates, /images/Fruits/freshdates.jpg
+Fruits, Apple, /images/Fruits/fujiapple.jpg
+Fruits, Golden Raisins, /images/Fruits/goldenraisins.jpg
+Fruits, Grapefruit, /images/Fruits/grapefruit.jpg
+Fruits, Grapes, /images/Fruits/grapes.jpg
+Fruits, Green Apple, /images/Fruits/greenApple.jpg
+Fruits, Huckleberries, /images/Fruits/huckleberries.jpg
+Fruits, Kiwi, /images/Fruits/kiwi-green.jpg
+Fruits, Lemon, /images/Fruits/lemon.jpg
+Fruits, Lime, /images/Fruits/lime.jpg
+Fruits, Mandarin Orange, /images/Fruits/mandarinorangegroup.jpg
+Fruits, Mango, /images/Fruits/mango.jpg
+Fruits, Marmalade, /images/Fruits/marmalade.jpg
+Fruits, Figs, /images/Fruits/missionfigs.jpg
+Fruits, Nectarine, /images/Fruits/nectarine.jpg
+Fruits, Orange, /images/Fruits/orange.jpg
+Fruits, Peach, /images/Fruits/peach.jpg
+Fruits, Pear, /images/Fruits/peargroup.jpg
+Fruits, Pineapple, /images/Fruits/pineapple.jpg
+Fruits, Plums, /images/Fruits/plums.jpg
+Fruits, Pomegranates, /images/Fruits/pomegranates.jpg
+Fruits, Pomello, /images/Fruits/pomello.jpg
+Fruits, Quince, /images/Fruits/quince.jpg
+Fruits, Raspberry Jam, /images/Fruits/raspberrypreserves.jpg
+Fruits, Redcurrant Jelly, /images/Fruits/redcurrantjelly.jpg
+Fruits, Redcurrants, /images/Fruits/redcurrants.jpg
+Fruits, Red Muscat Grapes, /images/Fruits/redmuscatgrapes.jpg
+Fruits, Red Raspberries, /images/Fruits/redraspberries.jpg
+Fruits, Sour Cherries, /images/Fruits/sourcherries.jpg
+Fruits, Strawberries, /images/Fruits/strawberries.jpg
+Fruits, Strawberry Jam, /images/Fruits/strawberrypreserves.jpg
+Fruits, Watermelon, /images/Fruits/watermelon.jpg
+Fruits, Melon, /images/Fruits/yellowmelon.jpg

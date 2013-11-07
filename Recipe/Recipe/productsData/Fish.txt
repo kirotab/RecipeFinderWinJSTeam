@@ -1,0 +1,26 @@
+Fish, Caviar, /images/Fish/caviar.jpg
+Fish, Crab, /images/Fish/dungenesscrab.jpg
+Fish, Crab Sticks, /images/Fish/crab-sticks.jpg
+Fish, Cod, /images/Fish/cod.jpg
+Fish, Crayfish, /images/Fish/crayfish.jpg
+Fish, Dories, /images/Fish/dories.jpg
+Fish, Squid, /images/Fish/fish-squid.jpg
+Fish, Flatfish.jpg, /images/Fish/flatfish.jpg
+Fish, Lobster, /images/Fish/lobster.jpg
+Fish, Mullet, /images/Fish/mullet.jpg
+Fish, Mussels, /images/Fish/mussels.jpg
+Fish, Octopus, /images/Fish/octopus.jpg
+Fish, Porgy, /images/Fish/porgy.jpg
+Fish, Rockfish, /images/Fish/rockfish.jpg
+Fish, Roughies, /images/Fish/roughies.jpg
+Fish, Salmon, /images/Fish/salmon.jpg
+Fish, Anchovies, /images/Fish/saltedanchovies.jpg
+Fish, Sardines, /images/Fish/sardines-fresh.jpg
+Fish, Green Mussels, /images/Fish/shellfish-greenmussels.jpg
+Fish, Shrimp, /images/Fish/shrimp.jpg
+Fish, Shrimp Meat, /images/Fish/shrimpmeat.jpg
+Fish, Swamp Eel, /images/Fish/swampeel.jpg
+Fish, Title Fish, /images/Fish/tilefish.jpg
+Fish, Tuna, /images/Fish/tuna.jpg
+Fish, Whiteperch, /images/Fish/whiteperch.jpg
+Fish, Yellow Croaker, /images/Fish/yellowcroaker.jpg

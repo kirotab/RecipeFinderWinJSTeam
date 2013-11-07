@@ -1,0 +1,8 @@
+Nuts, Acorns, /images/Nuts/acorns.jpg
+Nuts, Almonds, /images/Nuts/calmonds.jpg
+Nuts, Cashews, /images/Nuts/cashews.jpg
+Nuts, Hazelnuts, /images/Nuts/hazelnuts.jpg
+Nuts, Chestnuts, /images/Nuts/nuts-chestnuts.jpg
+Nuts, Walnuts, /images/Nuts/nuts-walnuts.jpg
+Nuts, Peanuts, /images/Nuts/peanuts.jpg
+Nuts, Pistachio Nuts, /images/Nuts/pistachionuts.jpg

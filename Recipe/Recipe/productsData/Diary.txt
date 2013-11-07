@@ -1,0 +1,23 @@
+Diary, Egg, /images/Diary/egg.jpg
+Diary, Duck Egg, /images/Diary/duckegg.jpg
+Diary, Quail Egg, /images/Diary/quailegg.jpg
+Diary, Egg Yolk, /images/Diary/eggyolk.jpg
+Diary, Almond Milk, /images/Diary/almondmilk.jpg
+Diary, Goat Milk, /images/Diary/goatmilk.jpg
+Diary, Cow Milk, /images/Diary/cowmilk.jpg
+Diary, Coconut Milk, /images/Diary/coconutmilk.jpg
+Diary, Soy Milk, /images/Diary/soymilk.jpg
+Diary, Cheese Slices, /images/Diary/americancheese.jpg
+Diary, Butter, /images/Diary/butter.jpg
+Diary, Cheddar, /images/Diary/cheddar.jpg
+Diary, Mozarella, /images/Diary/mozarella.jpg
+Diary, Cheese, /images/Diary/cheese.jpg
+Diary, Emmental Cheese, /images/Diary/emmentalercheese.jpg
+Diary, Fresh Cheese, /images/Diary/freshcheese.jpg
+Diary, Jarlsburg Cheese, /images/Diary/jarlsburgcheese.jpg
+Diary, Margarine, /images/Diary/margarine.jpg
+Diary, Jarlsburg Cheese, /images/Diary/jarlsburgcheese.jpg
+Diary, Margarine, /images/Diary/margarine.jpg
+Diary, Roquefort Cheese, /images/Diary/roquefortcheese.jpg
+Diary, Sourcream, /images/Diary/sourcream.jpg
+Diary, Yogurt, /images/Diary/yogurt.jpg

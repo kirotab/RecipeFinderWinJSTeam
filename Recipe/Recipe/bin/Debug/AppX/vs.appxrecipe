@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KIRO-PC</Machine>
+    <WindowsUser>kiro</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>2828BF759E09D3FAE7455B8D73A7D9A05A76E89B7498B7C20C9355FA815E33FC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9e26fa85-5042-43ca-9af5-dd3dffe3ee6b_1.0.0.0_neutral__208q3t7qnpxrj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9e26fa85-5042-43ca-9af5-dd3dffe3ee6b_208q3t7qnpxrj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9e26fa85-5042-43ca-9af5-dd3dffe3ee6b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Pavel</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-05T02:57:07.449</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-09-03T20:01:35.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\add-new-product\add-new-product.css">
+      <PackagePath>pages\add-new-product\add-new-product.css</PackagePath>
+      <Modified>2013-09-03T20:01:36.575</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\add-product\add-product.css">
+      <PackagePath>pages\add-product\add-product.css</PackagePath>
+      <Modified>2013-09-03T20:01:36.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+      <Modified>2013-09-03T20:01:36.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\recipe-photo\pagecontrol.css">
+      <PackagePath>pages\recipe-photo\pagecontrol.css</PackagePath>
+      <Modified>2013-09-03T20:01:36.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\refrigerator\refrigerator.css">
+      <PackagePath>pages\refrigerator\refrigerator.css</PackagePath>
+      <Modified>2013-09-03T20:01:36.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\search-by-products\search-by-products.css">
+      <PackagePath>pages\search-by-products\search-by-products.css</PackagePath>
+      <Modified>2013-09-03T20:01:36.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\search-results\searc-results.css">
+      <PackagePath>pages\search-results\searc-results.css</PackagePath>
+      <Modified>2013-09-05T02:55:02.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Dairy.jpg">
+      <PackagePath>images\Dairy.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Almond Milk.jpg">
+      <PackagePath>images\Diary\Almond Milk.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Butter.jpg">
+      <PackagePath>images\Diary\Butter.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Cheddar.jpg">
+      <PackagePath>images\Diary\Cheddar.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:15.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Cheese Slices.jpg">
+      <PackagePath>images\Diary\Cheese Slices.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Cheese.jpg">
+      <PackagePath>images\Diary\Cheese.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Coconut Milk.jpg">
+      <PackagePath>images\Diary\Coconut Milk.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Cow Milk.jpg">
+      <PackagePath>images\Diary\Cow Milk.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Duck Egg.jpg">
+      <PackagePath>images\Diary\Duck Egg.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:15.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Egg Yolks.jpg">
+      <PackagePath>images\Diary\Egg Yolks.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:15.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Egg.jpg">
+      <PackagePath>images\Diary\Egg.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:15.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Emmental Cheese.jpg">
+      <PackagePath>images\Diary\Emmental Cheese.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Fresh Cheese.jpg">
+      <PackagePath>images\Diary\Fresh Cheese.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Goat Milk.jpg">
+      <PackagePath>images\Diary\Goat Milk.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Jarlsburg Cheese.jpg">
+      <PackagePath>images\Diary\Jarlsburg Cheese.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Margarine.jpg">
+      <PackagePath>images\Diary\Margarine.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Mozarella.jpg">
+      <PackagePath>images\Diary\Mozarella.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\powderedmilk.jpg">
+      <PackagePath>images\Diary\powderedmilk.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Quail Eggs.jpg">
+      <PackagePath>images\Diary\Quail Eggs.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Roquefort Cheese.jpg">
+      <PackagePath>images\Diary\Roquefort Cheese.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Sourcream.jpg">
+      <PackagePath>images\Diary\Sourcream.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Soy Milk.jpg">
+      <PackagePath>images\Diary\Soy Milk.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\swisscheese.jpg">
+      <PackagePath>images\Diary\swisscheese.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Diary\Yogurt.jpg">
+      <PackagePath>images\Diary\Yogurt.jpg</PackagePath>
+      <Modified>2013-09-02T10:06:16.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\egg.jpg">
+      <PackagePath>images\egg.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:36.381</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish.jpg">
+      <PackagePath>images\Fish.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Anchovies.jpg">
+      <PackagePath>images\Fish\Anchovies.jpg</PackagePath>
+      <Modified>2013-09-01T15:16:55.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Caviar.jpg">
+      <PackagePath>images\Fish\Caviar.jpg</PackagePath>
+      <Modified>2013-09-01T15:18:36.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Cod.jpg">
+      <PackagePath>images\Fish\Cod.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:16.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Crab Sticks.jpg">
+      <PackagePath>images\Fish\Crab Sticks.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:46.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Crab.jpg">
+      <PackagePath>images\Fish\Crab.jpg</PackagePath>
+      <Modified>2013-09-01T15:19:39.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Crayfish.jpg">
+      <PackagePath>images\Fish\Crayfish.jpg</PackagePath>
+      <Modified>2013-09-01T15:19:54.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Dories.jpg">
+      <PackagePath>images\Fish\Dories.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:19.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Flatfish.jpg.jpg">
+      <PackagePath>images\Fish\Flatfish.jpg.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:25.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Green Mussels.jpg">
+      <PackagePath>images\Fish\Green Mussels.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:00.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Lobster.jpg">
+      <PackagePath>images\Fish\Lobster.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:04.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Mullet.jpg">
+      <PackagePath>images\Fish\Mullet.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:28.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Mussels.jpg">
+      <PackagePath>images\Fish\Mussels.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:10.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Octopus.jpg">
+      <PackagePath>images\Fish\Octopus.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:13.690</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Porgy.jpg">
+      <PackagePath>images\Fish\Porgy.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:35.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Rockfish.jpg">
+      <PackagePath>images\Fish\Rockfish.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:38.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Roughies.jpg">
+      <PackagePath>images\Fish\Roughies.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:41.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Salmon.jpg">
+      <PackagePath>images\Fish\Salmon.jpg</PackagePath>
+      <Modified>2013-09-01T15:21:39.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Sardines.jpg">
+      <PackagePath>images\Fish\Sardines.jpg</PackagePath>
+      <Modified>2013-09-01T15:21:18.587</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Shrimp Meat.jpg">
+      <PackagePath>images\Fish\Shrimp Meat.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:29.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Shrimp.jpg">
+      <PackagePath>images\Fish\Shrimp.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:26.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Squid.jpg">
+      <PackagePath>images\Fish\Squid.jpg</PackagePath>
+      <Modified>2013-09-01T15:20:33.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Swamp Eel.jpg">
+      <PackagePath>images\Fish\Swamp Eel.jpg</PackagePath>
+      <Modified>2013-09-01T15:17:18.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Title Fish.jpg">
+      <PackagePath>images\Fish\Title Fish.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:44.740</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Tuna.jpg">
+      <PackagePath>images\Fish\Tuna.jpg</PackagePath>
+      <Modified>2013-09-01T15:17:42.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Whiteperch.jpg">
+      <PackagePath>images\Fish\Whiteperch.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:30.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fish\Yellow Croaker.jpg">
+      <PackagePath>images\Fish\Yellow Croaker.jpg</PackagePath>
+      <Modified>2013-09-01T15:22:22.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring.jpg">
+      <PackagePath>images\Flavoring.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Baking Powder.jpg">
+      <PackagePath>images\Flavoring\Baking Powder.jpg</PackagePath>
+      <Modified>2013-09-01T15:25:47.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Baking Soda.jpg">
+      <PackagePath>images\Flavoring\Baking Soda.jpg</PackagePath>
+      <Modified>2013-09-01T15:25:50.930</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Chilly Powder.jpg">
+      <PackagePath>images\Flavoring\Chilly Powder.jpg</PackagePath>
+      <Modified>2013-09-01T14:47:11.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Cilantro.jpg">
+      <PackagePath>images\Flavoring\Cilantro.jpg</PackagePath>
+      <Modified>2013-09-01T14:43:52.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Cocoa Butter.jpg">
+      <PackagePath>images\Flavoring\Cocoa Butter.jpg</PackagePath>
+      <Modified>2013-09-01T14:51:12.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Cocoa.jpg">
+      <PackagePath>images\Flavoring\Cocoa.jpg</PackagePath>
+      <Modified>2013-09-01T14:51:08.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Crushed Red Pepper.jpg">
+      <PackagePath>images\Flavoring\Crushed Red Pepper.jpg</PackagePath>
+      <Modified>2013-09-01T14:47:15.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Dill.jpg">
+      <PackagePath>images\Flavoring\Dill.jpg</PackagePath>
+      <Modified>2013-09-01T14:44:37.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Dry Yeast.jpg">
+      <PackagePath>images\Flavoring\Dry Yeast.jpg</PackagePath>
+      <Modified>2013-09-01T15:26:20.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Fine Salt.jpg">
+      <PackagePath>images\Flavoring\Fine Salt.jpg</PackagePath>
+      <Modified>2013-09-01T14:49:59.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Garlic Flakes.jpg">
+      <PackagePath>images\Flavoring\Garlic Flakes.jpg</PackagePath>
+      <Modified>2013-09-01T13:40:03.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Garlic Powder.jpg">
+      <PackagePath>images\Flavoring\Garlic Powder.jpg</PackagePath>
+      <Modified>2013-09-01T13:40:18.358</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Garlic Salt.jpg">
+      <PackagePath>images\Flavoring\Garlic Salt.jpg</PackagePath>
+      <Modified>2013-09-01T13:40:21.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Garlic.jpg">
+      <PackagePath>images\Flavoring\Garlic.jpg</PackagePath>
+      <Modified>2013-09-01T14:51:29.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Green Onions.jpg">
+      <PackagePath>images\Flavoring\Green Onions.jpg</PackagePath>
+      <Modified>2013-09-01T14:51:43.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\mint.jpg">
+      <PackagePath>images\Flavoring\mint.jpg</PackagePath>
+      <Modified>2013-09-01T14:43:54.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Olive Oil.jpg">
+      <PackagePath>images\Flavoring\Olive Oil.jpg</PackagePath>
+      <Modified>2013-09-01T15:53:00.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Onion Powder.jpg">
+      <PackagePath>images\Flavoring\Onion Powder.jpg</PackagePath>
+      <Modified>2013-09-01T13:39:17.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Onion.jpg">
+      <PackagePath>images\Flavoring\Onion.jpg</PackagePath>
+      <Modified>2013-09-01T14:51:47.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Palm Oil.jpg">
+      <PackagePath>images\Flavoring\Palm Oil.jpg</PackagePath>
+      <Modified>2013-09-01T15:54:30.091</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Pepper Corns.jpg">
+      <PackagePath>images\Flavoring\Pepper Corns.jpg</PackagePath>
+      <Modified>2013-09-01T14:46:40.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Potash.jpg">
+      <PackagePath>images\Flavoring\Potash.jpg</PackagePath>
+      <Modified>2013-09-01T15:25:57.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Powder Sugar.jpg">
+      <PackagePath>images\Flavoring\Powder Sugar.jpg</PackagePath>
+      <Modified>2013-09-01T14:50:33.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Pumpkin Seeds.jpg">
+      <PackagePath>images\Flavoring\Pumpkin Seeds.jpg</PackagePath>
+      <Modified>2013-09-01T14:49:05.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Red Pepper.jpg">
+      <PackagePath>images\Flavoring\Red Pepper.jpg</PackagePath>
+      <Modified>2013-09-01T14:47:28.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Salt.jpg">
+      <PackagePath>images\Flavoring\Salt.jpg</PackagePath>
+      <Modified>2013-09-01T13:03:14.967</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Sasam Seeds.jpg">
+      <PackagePath>images\Flavoring\Sasam Seeds.jpg</PackagePath>
+      <Modified>2013-09-01T14:45:53.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Sea Salt.jpg">
+      <PackagePath>images\Flavoring\Sea Salt.jpg</PackagePath>
+      <Modified>2013-09-01T14:49:38.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Sugar.jpg">
+      <PackagePath>images\Flavoring\Sugar.jpg</PackagePath>
+      <Modified>2013-09-01T14:50:24.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Sunflower Oil.jpg">
+      <PackagePath>images\Flavoring\Sunflower Oil.jpg</PackagePath>
+      <Modified>2013-09-01T15:58:09.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Sunflower Seeds.jpg">
+      <PackagePath>images\Flavoring\Sunflower Seeds.jpg</PackagePath>
+      <Modified>2013-09-01T14:49:14.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\sunflower-oil.jpg">
+      <PackagePath>images\Flavoring\sunflower-oil.jpg</PackagePath>
+      <Modified>2013-09-01T15:56:50.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Whitepepper Corns.jpg">
+      <PackagePath>images\Flavoring\Whitepepper Corns.jpg</PackagePath>
+      <Modified>2013-09-01T14:46:47.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Yeast Extract.jpg">
+      <PackagePath>images\Flavoring\Yeast Extract.jpg</PackagePath>
+      <Modified>2013-09-01T15:26:34.121</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Flavoring\Yeast.jpg">
+      <PackagePath>images\Flavoring\Yeast.jpg</PackagePath>
+      <Modified>2013-09-01T15:26:03.827</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits.jpg">
+      <PackagePath>images\Fruits.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Apple.jpg">
+      <PackagePath>images\Fruits\Apple.jpg</PackagePath>
+      <Modified>2013-09-01T14:32:05.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Apricot Jam.jpg">
+      <PackagePath>images\Fruits\Apricot Jam.jpg</PackagePath>
+      <Modified>2013-09-01T14:33:34.506</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Apricot.jpg">
+      <PackagePath>images\Fruits\Apricot.jpg</PackagePath>
+      <Modified>2013-09-01T14:27:42.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Bananas.jpg">
+      <PackagePath>images\Fruits\Bananas.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:44.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Berries.jpg">
+      <PackagePath>images\Fruits\Berries.jpg</PackagePath>
+      <Modified>2013-09-01T14:25:20.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Blackberries.jpg">
+      <PackagePath>images\Fruits\Blackberries.jpg</PackagePath>
+      <Modified>2013-09-01T14:25:26.908</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Blackcurrant Jelly.jpg">
+      <PackagePath>images\Fruits\Blackcurrant Jelly.jpg</PackagePath>
+      <Modified>2013-09-01T14:33:39.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Blackcurrants.jpg">
+      <PackagePath>images\Fruits\Blackcurrants.jpg</PackagePath>
+      <Modified>2013-09-01T14:25:32.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Blueberries.jpg">
+      <PackagePath>images\Fruits\Blueberries.jpg</PackagePath>
+      <Modified>2013-09-01T14:25:36.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Blueberry Jam.jpg">
+      <PackagePath>images\Fruits\Blueberry Jam.jpg</PackagePath>
+      <Modified>2013-09-01T14:33:42.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Carambola.jpg">
+      <PackagePath>images\Fruits\Carambola.jpg</PackagePath>
+      <Modified>2013-09-01T14:29:36.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Cherries.jpg">
+      <PackagePath>images\Fruits\Cherries.jpg</PackagePath>
+      <Modified>2013-09-01T14:27:54.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Coconut.jpg">
+      <PackagePath>images\Fruits\Coconut.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:48.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Cranberries.jpg">
+      <PackagePath>images\Fruits\Cranberries.jpg</PackagePath>
+      <Modified>2013-09-01T14:26:00.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Dates.jpg">
+      <PackagePath>images\Fruits\Dates.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:53.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Dried Apples.jpg">
+      <PackagePath>images\Fruits\Dried Apples.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:46.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Dried Apricots.jpg">
+      <PackagePath>images\Fruits\Dried Apricots.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:43.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Dried Bannana Chips.jpg">
+      <PackagePath>images\Fruits\Dried Bannana Chips.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:51.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Dried Cherries.jpg">
+      <PackagePath>images\Fruits\Dried Cherries.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:56.191</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Dried Fruit.jpg">
+      <PackagePath>images\Fruits\Dried Fruit.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:38.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Figs.jpg">
+      <PackagePath>images\Fruits\Figs.jpg</PackagePath>
+      <Modified>2013-09-01T14:29:02.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Golden Raisins.jpg">
+      <PackagePath>images\Fruits\Golden Raisins.jpg</PackagePath>
+      <Modified>2013-09-01T14:31:07.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Grapefruit.jpg">
+      <PackagePath>images\Fruits\Grapefruit.jpg</PackagePath>
+      <Modified>2013-09-01T14:23:47.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Grapes.jpg">
+      <PackagePath>images\Fruits\Grapes.jpg</PackagePath>
+      <Modified>2013-09-01T14:27:25.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Green Apple.jpg">
+      <PackagePath>images\Fruits\Green Apple.jpg</PackagePath>
+      <Modified>2013-09-01T14:32:20.297</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Huckleberries.jpg">
+      <PackagePath>images\Fruits\Huckleberries.jpg</PackagePath>
+      <Modified>2013-09-01T14:26:45.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Kiwi.jpg">
+      <PackagePath>images\Fruits\Kiwi.jpg</PackagePath>
+      <Modified>2013-09-01T14:26:51.298</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Lemon.jpg">
+      <PackagePath>images\Fruits\Lemon.jpg</PackagePath>
+      <Modified>2013-09-01T14:23:59.438</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Lime.jpg">
+      <PackagePath>images\Fruits\Lime.jpg</PackagePath>
+      <Modified>2013-09-01T14:24:04.540</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Mandarin Orange.jpg">
+      <PackagePath>images\Fruits\Mandarin Orange.jpg</PackagePath>
+      <Modified>2013-09-01T14:25:06.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Mango.jpg">
+      <PackagePath>images\Fruits\Mango.jpg</PackagePath>
+      <Modified>2013-09-01T14:29:12.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Marmalade.jpg">
+      <PackagePath>images\Fruits\Marmalade.jpg</PackagePath>
+      <Modified>2013-09-01T14:34:01.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Melon.jpg">
+      <PackagePath>images\Fruits\Melon.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:25.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Nectarine.jpg">
+      <PackagePath>images\Fruits\Nectarine.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:04.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Orange.jpg">
+      <PackagePath>images\Fruits\Orange.jpg</PackagePath>
+      <Modified>2013-09-01T14:24:25.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Papaya.jpg">
+      <PackagePath>images\Fruits\Papaya.jpg</PackagePath>
+      <Modified>2013-09-01T14:29:06.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Peach.jpg">
+      <PackagePath>images\Fruits\Peach.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:08.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Pear.jpg">
+      <PackagePath>images\Fruits\Pear.jpg</PackagePath>
+      <Modified>2013-09-01T14:32:31.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Pineapple.jpg">
+      <PackagePath>images\Fruits\Pineapple.jpg</PackagePath>
+      <Modified>2013-09-01T14:29:22.904</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Plums.jpg">
+      <PackagePath>images\Fruits\Plums.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:20.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Pomegranates.jpg">
+      <PackagePath>images\Fruits\Pomegranates.jpg</PackagePath>
+      <Modified>2013-09-01T14:29:27.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Pomello.jpg">
+      <PackagePath>images\Fruits\Pomello.jpg</PackagePath>
+      <Modified>2013-09-01T14:24:30.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Quince.jpg">
+      <PackagePath>images\Fruits\Quince.jpg</PackagePath>
+      <Modified>2013-09-01T14:31:37.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Raspberry Jam.jpg">
+      <PackagePath>images\Fruits\Raspberry Jam.jpg</PackagePath>
+      <Modified>2013-09-01T14:34:09.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Red Muscat Grapes.jpg">
+      <PackagePath>images\Fruits\Red Muscat Grapes.jpg</PackagePath>
+      <Modified>2013-09-01T14:26:36.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Red Raspberries.jpg">
+      <PackagePath>images\Fruits\Red Raspberries.jpg</PackagePath>
+      <Modified>2013-09-01T14:27:00.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Redcurrant Jelly.jpg">
+      <PackagePath>images\Fruits\Redcurrant Jelly.jpg</PackagePath>
+      <Modified>2013-09-01T14:34:13.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Redcurrants.jpg">
+      <PackagePath>images\Fruits\Redcurrants.jpg</PackagePath>
+      <Modified>2013-09-01T14:27:06.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Sour Cherries.jpg">
+      <PackagePath>images\Fruits\Sour Cherries.jpg</PackagePath>
+      <Modified>2013-09-01T14:28:27.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Strawberries.jpg">
+      <PackagePath>images\Fruits\Strawberries.jpg</PackagePath>
+      <Modified>2013-09-01T14:27:10.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Strawberry Jam.jpg">
+      <PackagePath>images\Fruits\Strawberry Jam.jpg</PackagePath>
+      <Modified>2013-09-01T14:34:16.169</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Fruits\Watermelon.jpg">
+      <PackagePath>images\Fruits\Watermelon.jpg</PackagePath>
+      <Modified>2013-09-01T14:30:22.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains.jpg">
+      <PackagePath>images\Grains.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Asian Rice Noodles.jpg">
+      <PackagePath>images\Grains\Asian Rice Noodles.jpg</PackagePath>
+      <Modified>2013-09-01T15:02:19.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Baby Corn.jpg">
+      <PackagePath>images\Grains\Baby Corn.jpg</PackagePath>
+      <Modified>2013-09-01T14:56:50.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Beans.jpg">
+      <PackagePath>images\Grains\Beans.jpg</PackagePath>
+      <Modified>2013-09-01T15:23:32.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Bread Dough.jpg">
+      <PackagePath>images\Grains\Bread Dough.jpg</PackagePath>
+      <Modified>2013-09-01T15:04:49.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Chinese Egg Noodles.jpg">
+      <PackagePath>images\Grains\Chinese Egg Noodles.jpg</PackagePath>
+      <Modified>2013-09-01T15:02:02.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Corn.jpg">
+      <PackagePath>images\Grains\Corn.jpg</PackagePath>
+      <Modified>2013-09-01T14:57:15.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Flour.jpg">
+      <PackagePath>images\Grains\Flour.jpg</PackagePath>
+      <Modified>2013-09-01T14:59:38.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Insta Blending Flour.jpg">
+      <PackagePath>images\Grains\Insta Blending Flour.jpg</PackagePath>
+      <Modified>2013-09-01T15:04:38.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Long Brown Rice.jpg">
+      <PackagePath>images\Grains\Long Brown Rice.jpg</PackagePath>
+      <Modified>2013-09-01T14:56:17.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Oats.jpg">
+      <PackagePath>images\Grains\Oats.jpg</PackagePath>
+      <Modified>2013-09-01T14:57:26.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Pancitcanton.jpg">
+      <PackagePath>images\Grains\Pancitcanton.jpg</PackagePath>
+      <Modified>2013-09-01T15:02:46.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Pasta Rods.jpg">
+      <PackagePath>images\Grains\Pasta Rods.jpg</PackagePath>
+      <Modified>2013-09-01T15:00:42.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Pasta Shapes.jpg">
+      <PackagePath>images\Grains\Pasta Shapes.jpg</PackagePath>
+      <Modified>2013-09-01T15:01:20.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Pasta Tubes.jpg">
+      <PackagePath>images\Grains\Pasta Tubes.jpg</PackagePath>
+      <Modified>2013-09-01T15:01:32.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Pastry Flour.jpg">
+      <PackagePath>images\Grains\Pastry Flour.jpg</PackagePath>
+      <Modified>2013-09-01T14:59:28.441</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Pectin.jpg">
+      <PackagePath>images\Grains\Pectin.jpg</PackagePath>
+      <Modified>2013-09-01T15:04:42.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Ravioli.jpg">
+      <PackagePath>images\Grains\Ravioli.jpg</PackagePath>
+      <Modified>2013-09-01T15:01:36.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Soup Pasta.jpg">
+      <PackagePath>images\Grains\Soup Pasta.jpg</PackagePath>
+      <Modified>2013-09-01T15:01:28.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Sweet Corn.jpg">
+      <PackagePath>images\Grains\Sweet Corn.jpg</PackagePath>
+      <Modified>2013-09-01T14:56:47.243</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Tagliarini.jpg">
+      <PackagePath>images\Grains\Tagliarini.jpg</PackagePath>
+      <Modified>2013-09-01T15:01:04.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\Wheat.jpg">
+      <PackagePath>images\Grains\Wheat.jpg</PackagePath>
+      <Modified>2013-09-01T14:56:38.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Grains\White Rice.jpg">
+      <PackagePath>images\Grains\White Rice.jpg</PackagePath>
+      <Modified>2013-09-01T14:55:56.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids.jpg">
+      <PackagePath>images\Liquids.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Balsamic Vinegar.jpg">
+      <PackagePath>images\Liquids\Balsamic Vinegar.jpg</PackagePath>
+      <Modified>2013-09-01T15:46:09.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Beer.jpg">
+      <PackagePath>images\Liquids\Beer.jpg</PackagePath>
+      <Modified>2013-09-01T15:47:28.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Bourbon Whiskey.jpg">
+      <PackagePath>images\Liquids\Bourbon Whiskey.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:16.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Brandy.jpg">
+      <PackagePath>images\Liquids\Brandy.jpg</PackagePath>
+      <Modified>2013-09-01T15:49:18.742</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Canadianwhiskey.jpg">
+      <PackagePath>images\Liquids\Canadianwhiskey.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:27.430</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Creme De Cassis.jpg">
+      <PackagePath>images\Liquids\Creme De Cassis.jpg</PackagePath>
+      <Modified>2013-09-01T15:47:56.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Darkrum.jpg">
+      <PackagePath>images\Liquids\Darkrum.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:31.941</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Gin.jpg">
+      <PackagePath>images\Liquids\Gin.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:35.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Goldrum.jpg">
+      <PackagePath>images\Liquids\Goldrum.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:22.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Irish Whiskey.jpg">
+      <PackagePath>images\Liquids\Irish Whiskey.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:40.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Lightrum.jpg">
+      <PackagePath>images\Liquids\Lightrum.jpg</PackagePath>
+      <Modified>2013-09-01T15:49:13.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Plain Water.jpg">
+      <PackagePath>images\Liquids\Plain Water.jpg</PackagePath>
+      <Modified>2013-09-01T15:47:11.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Red Wine.jpg">
+      <PackagePath>images\Liquids\Red Wine.jpg</PackagePath>
+      <Modified>2013-09-01T15:47:49.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Redraspberry Vinegar.jpg">
+      <PackagePath>images\Liquids\Redraspberry Vinegar.jpg</PackagePath>
+      <Modified>2013-09-01T15:46:28.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Redwine Vinegar.jpg">
+      <PackagePath>images\Liquids\Redwine Vinegar.jpg</PackagePath>
+      <Modified>2013-09-01T15:46:41.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Scotch Whisky.jpg">
+      <PackagePath>images\Liquids\Scotch Whisky.jpg</PackagePath>
+      <Modified>2013-09-01T15:48:02.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Seltzer Water.jpg">
+      <PackagePath>images\Liquids\Seltzer Water.jpg</PackagePath>
+      <Modified>2013-09-01T15:47:08.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Tarragon Vinegar.jpg">
+      <PackagePath>images\Liquids\Tarragon Vinegar.jpg</PackagePath>
+      <Modified>2013-09-01T15:46:31.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Tennessee whiskey.jpg">
+      <PackagePath>images\Liquids\Tennessee whiskey.jpg</PackagePath>
+      <Modified>2013-09-01T15:49:00.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Tequila.jpg">
+      <PackagePath>images\Liquids\Tequila.jpg</PackagePath>
+      <Modified>2013-09-01T15:49:03.150</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Vinegar.jpg">
+      <PackagePath>images\Liquids\Vinegar.jpg</PackagePath>
+      <Modified>2013-09-01T15:46:57.764</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Liquids\Vodka.jpg">
+      <PackagePath>images\Liquids\Vodka.jpg</PackagePath>
+      <Modified>2013-09-01T15:49:06.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat.jpg">
+      <PackagePath>images\Meat.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Bacon.jpg">
+      <PackagePath>images\Meat\Bacon.jpg</PackagePath>
+      <Modified>2013-09-01T15:14:13.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Beef.jpg">
+      <PackagePath>images\Meat\Beef.jpg</PackagePath>
+      <Modified>2013-09-01T15:10:24.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Canadian bacon.jpg">
+      <PackagePath>images\Meat\Canadian bacon.jpg</PackagePath>
+      <Modified>2013-09-01T15:14:17.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Chicken.jpg">
+      <PackagePath>images\Meat\Chicken.jpg</PackagePath>
+      <Modified>2013-09-01T15:09:35.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Duck.jpg">
+      <PackagePath>images\Meat\Duck.jpg</PackagePath>
+      <Modified>2013-09-01T15:09:39.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Giblets.jpg">
+      <PackagePath>images\Meat\Giblets.jpg</PackagePath>
+      <Modified>2013-09-01T15:09:49.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Goose.jpg">
+      <PackagePath>images\Meat\Goose.jpg</PackagePath>
+      <Modified>2013-09-01T15:09:52.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Ground Chicken.jpg">
+      <PackagePath>images\Meat\Ground Chicken.jpg</PackagePath>
+      <Modified>2013-09-01T15:10:01.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Ground Lamb.jpg">
+      <PackagePath>images\Meat\Ground Lamb.jpg</PackagePath>
+      <Modified>2013-09-01T15:13:01.716</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Ground Ostrich.jpg">
+      <PackagePath>images\Meat\Ground Ostrich.jpg</PackagePath>
+      <Modified>2013-09-01T15:13:46.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Ground Pork.jpg">
+      <PackagePath>images\Meat\Ground Pork.jpg</PackagePath>
+      <Modified>2013-09-01T15:12:18.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Ground Turkey.jpg">
+      <PackagePath>images\Meat\Ground Turkey.jpg</PackagePath>
+      <Modified>2013-09-01T15:10:03.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Ground Veal.jpg">
+      <PackagePath>images\Meat\Ground Veal.jpg</PackagePath>
+      <Modified>2013-09-01T15:13:37.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Hamsteak.jpg">
+      <PackagePath>images\Meat\Hamsteak.jpg</PackagePath>
+      <Modified>2013-09-01T15:15:37.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Lamb Ribs.jpg">
+      <PackagePath>images\Meat\Lamb Ribs.jpg</PackagePath>
+      <Modified>2013-09-01T15:12:28.140</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Lamb.jpg">
+      <PackagePath>images\Meat\Lamb.jpg</PackagePath>
+      <Modified>2013-09-01T15:13:12.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Pork.jpg">
+      <PackagePath>images\Meat\Pork.jpg</PackagePath>
+      <Modified>2013-09-01T15:12:00.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Turkey.jpg">
+      <PackagePath>images\Meat\Turkey.jpg</PackagePath>
+      <Modified>2013-09-01T15:10:15.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Meat\Veal.jpg">
+      <PackagePath>images\Meat\Veal.jpg</PackagePath>
+      <Modified>2013-09-01T15:13:31.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts.jpg">
+      <PackagePath>images\Nuts.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:35.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Acorns.jpg">
+      <PackagePath>images\Nuts\Acorns.jpg</PackagePath>
+      <Modified>2013-09-01T15:07:02.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Almonds.jpg">
+      <PackagePath>images\Nuts\Almonds.jpg</PackagePath>
+      <Modified>2013-09-01T15:06:59.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Cashews.jpg">
+      <PackagePath>images\Nuts\Cashews.jpg</PackagePath>
+      <Modified>2013-09-01T15:07:14.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Chestnuts.jpg">
+      <PackagePath>images\Nuts\Chestnuts.jpg</PackagePath>
+      <Modified>2013-09-01T15:07:18.255</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Hazelnuts.jpg">
+      <PackagePath>images\Nuts\Hazelnuts.jpg</PackagePath>
+      <Modified>2013-09-01T15:07:36.479</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Peanuts.jpg">
+      <PackagePath>images\Nuts\Peanuts.jpg</PackagePath>
+      <Modified>2013-09-01T15:07:59.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Pistachio Nuts.jpg">
+      <PackagePath>images\Nuts\Pistachio Nuts.jpg</PackagePath>
+      <Modified>2013-09-01T15:08:11.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Nuts\Walnuts.jpg">
+      <PackagePath>images\Nuts\Walnuts.jpg</PackagePath>
+      <Modified>2013-09-01T15:08:17.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\photo.JPG">
+      <PackagePath>images\photo.JPG</PackagePath>
+      <Modified>2013-09-03T20:01:36.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\redone.jpg">
+      <PackagePath>images\redone.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:36.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\refrigerator.jpg">
+      <PackagePath>images\refrigerator.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:36.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\tomato.jpg">
+      <PackagePath>images\tomato.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:36.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables.jpg">
+      <PackagePath>images\Vegetables.jpg</PackagePath>
+      <Modified>2013-09-03T20:01:36.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Artichoke.jpg">
+      <PackagePath>images\Vegetables\Artichoke.jpg</PackagePath>
+      <Modified>2013-09-01T13:45:23.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Arugula.jpg">
+      <PackagePath>images\Vegetables\Arugula.jpg</PackagePath>
+      <Modified>2013-09-01T13:42:22.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Asian Squash.jpg">
+      <PackagePath>images\Vegetables\Asian Squash.jpg</PackagePath>
+      <Modified>2013-09-01T13:50:25.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Asparagus.jpg">
+      <PackagePath>images\Vegetables\Asparagus.jpg</PackagePath>
+      <Modified>2013-09-01T13:36:50.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Avocado.jpg">
+      <PackagePath>images\Vegetables\Avocado.jpg</PackagePath>
+      <Modified>2013-09-01T13:50:50.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Baby Ginger.jpg">
+      <PackagePath>images\Vegetables\Baby Ginger.jpg</PackagePath>
+      <Modified>2013-09-01T13:40:58.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Baby Potatoes.jpg">
+      <PackagePath>images\Vegetables\Baby Potatoes.jpg</PackagePath>
+      <Modified>2013-09-01T13:35:41.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Bamia.jpg">
+      <PackagePath>images\Vegetables\Bamia.jpg</PackagePath>
+      <Modified>2013-09-01T13:47:27.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Bean Sprouts.jpg">
+      <PackagePath>images\Vegetables\Bean Sprouts.jpg</PackagePath>
+      <Modified>2013-09-01T13:56:37.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Beans Romano.jpg">
+      <PackagePath>images\Vegetables\Beans Romano.jpg</PackagePath>
+      <Modified>2013-09-01T13:46:40.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Bermuda onion.jpg">
+      <PackagePath>images\Vegetables\Bermuda onion.jpg</PackagePath>
+      <Modified>2013-09-01T13:39:03.902</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Blackradish.jpg">
+      <PackagePath>images\Vegetables\Blackradish.jpg</PackagePath>
+      <Modified>2013-09-01T13:32:10.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Brocco flower.jpg">
+      <PackagePath>images\Vegetables\Brocco flower.jpg</PackagePath>
+      <Modified>2013-09-01T13:45:36.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Broccoli Sprouts.jpg">
+      <PackagePath>images\Vegetables\Broccoli Sprouts.jpg</PackagePath>
+      <Modified>2013-09-01T13:56:43.583</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Broccoli.jpg">
+      <PackagePath>images\Vegetables\Broccoli.jpg</PackagePath>
+      <Modified>2013-09-01T13:45:46.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Broccolini.jpg">
+      <PackagePath>images\Vegetables\Broccolini.jpg</PackagePath>
+      <Modified>2013-09-01T13:45:54.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Burdock.jpg">
+      <PackagePath>images\Vegetables\Burdock.jpg</PackagePath>
+      <Modified>2013-09-01T13:32:15.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Butter Lettuce.jpg">
+      <PackagePath>images\Vegetables\Butter Lettuce.jpg</PackagePath>
+      <Modified>2013-09-01T13:42:33.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Cabbage.jpg">
+      <PackagePath>images\Vegetables\Cabbage.jpg</PackagePath>
+      <Modified>2013-09-01T13:41:35.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Carrot.jpg">
+      <PackagePath>images\Vegetables\Carrot.jpg</PackagePath>
+      <Modified>2013-09-01T13:31:20.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Cauliflower.jpg">
+      <PackagePath>images\Vegetables\Cauliflower.jpg</PackagePath>
+      <Modified>2013-09-01T13:46:02.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Celeryroot.jpg">
+      <PackagePath>images\Vegetables\Celeryroot.jpg</PackagePath>
+      <Modified>2013-09-01T13:31:27.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Cherry Tomatoes.jpg">
+      <PackagePath>images\Vegetables\Cherry Tomatoes.jpg</PackagePath>
+      <Modified>2013-09-01T13:54:48.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Chilly Peppers.jpg">
+      <PackagePath>images\Vegetables\Chilly Peppers.jpg</PackagePath>
+      <Modified>2013-09-01T13:51:33.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Cubanelle Pepper.jpg">
+      <PackagePath>images\Vegetables\Cubanelle Pepper.jpg</PackagePath>
+      <Modified>2013-09-01T13:54:10.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Cucumber.jpg">
+      <PackagePath>images\Vegetables\Cucumber.jpg</PackagePath>
+      <Modified>2013-09-01T13:52:43.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Daikon.jpg">
+      <PackagePath>images\Vegetables\Daikon.jpg</PackagePath>
+      <Modified>2013-09-01T13:31:40.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Dandelion Greens.jpg">
+      <PackagePath>images\Vegetables\Dandelion Greens.jpg</PackagePath>
+      <Modified>2013-09-01T13:42:54.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Dried Chilly Peppers.jpg">
+      <PackagePath>images\Vegetables\Dried Chilly Peppers.jpg</PackagePath>
+      <Modified>2013-09-01T13:51:09.199</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Eggplant.jpg">
+      <PackagePath>images\Vegetables\Eggplant.jpg</PackagePath>
+      <Modified>2013-09-01T13:52:59.220</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Escarole.jpg">
+      <PackagePath>images\Vegetables\Escarole.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:07.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Fresh Beans.jpg">
+      <PackagePath>images\Vegetables\Fresh Beans.jpg</PackagePath>
+      <Modified>2013-09-01T13:48:00.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Garlic.jpg">
+      <PackagePath>images\Vegetables\Garlic.jpg</PackagePath>
+      <Modified>2013-09-01T13:39:53.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Gingerroot.jpg">
+      <PackagePath>images\Vegetables\Gingerroot.jpg</PackagePath>
+      <Modified>2013-09-01T13:40:54.311</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Green Beans.jpg">
+      <PackagePath>images\Vegetables\Green Beans.jpg</PackagePath>
+      <Modified>2013-09-01T13:46:14.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Green Olives.jpg">
+      <PackagePath>images\Vegetables\Green Olives.jpg</PackagePath>
+      <Modified>2013-09-01T13:53:25.592</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Green Onions.jpg">
+      <PackagePath>images\Vegetables\Green Onions.jpg</PackagePath>
+      <Modified>2013-09-01T13:37:58.891</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Greenleaf Lettuce.jpg">
+      <PackagePath>images\Vegetables\Greenleaf Lettuce.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:11.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Iceberg Lettuce.jpg">
+      <PackagePath>images\Vegetables\Iceberg Lettuce.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:16.270</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Kirby Cucumber.jpg">
+      <PackagePath>images\Vegetables\Kirby Cucumber.jpg</PackagePath>
+      <Modified>2013-09-01T13:52:28.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Lettuce.jpg">
+      <PackagePath>images\Vegetables\Lettuce.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:21.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Limestone Lettuce.jpg">
+      <PackagePath>images\Vegetables\Limestone Lettuce.jpg</PackagePath>
+      <Modified>2013-09-01T13:42:37.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Lotus Root.jpg">
+      <PackagePath>images\Vegetables\Lotus Root.jpg</PackagePath>
+      <Modified>2013-09-01T13:32:32.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Mesclun Salad.jpg">
+      <PackagePath>images\Vegetables\Mesclun Salad.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:54.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Mizuna.jpg">
+      <PackagePath>images\Vegetables\Mizuna.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:36.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Olives.jpg">
+      <PackagePath>images\Vegetables\Olives.jpg</PackagePath>
+      <Modified>2013-09-01T13:53:17.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Onion.jpg">
+      <PackagePath>images\Vegetables\Onion.jpg</PackagePath>
+      <Modified>2013-09-01T13:38:01.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Parsleyroot.jpg">
+      <PackagePath>images\Vegetables\Parsleyroot.jpg</PackagePath>
+      <Modified>2013-09-01T13:32:42.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Parsnip.jpg">
+      <PackagePath>images\Vegetables\Parsnip.jpg</PackagePath>
+      <Modified>2013-09-01T13:32:49.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Pepper Redbell.jpg">
+      <PackagePath>images\Vegetables\Pepper Redbell.jpg</PackagePath>
+      <Modified>2013-09-01T13:54:07.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Potatoes.jpg">
+      <PackagePath>images\Vegetables\Potatoes.jpg</PackagePath>
+      <Modified>2013-09-01T13:34:13.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Puffballs.jpg">
+      <PackagePath>images\Vegetables\Puffballs.jpg</PackagePath>
+      <Modified>2013-09-01T13:49:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Radish.jpg">
+      <PackagePath>images\Vegetables\Radish.jpg</PackagePath>
+      <Modified>2013-09-01T13:32:55.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Red Lettuce.jpg">
+      <PackagePath>images\Vegetables\Red Lettuce.jpg</PackagePath>
+      <Modified>2013-09-01T13:43:46.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Redcabbage.jpg">
+      <PackagePath>images\Vegetables\Redcabbage.jpg</PackagePath>
+      <Modified>2013-09-01T13:41:49.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Redonion.jpg">
+      <PackagePath>images\Vegetables\Redonion.jpg</PackagePath>
+      <Modified>2013-09-01T13:39:25.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Rutabaga.jpg">
+      <PackagePath>images\Vegetables\Rutabaga.jpg</PackagePath>
+      <Modified>2013-09-01T13:33:01.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Spinach.jpg">
+      <PackagePath>images\Vegetables\Spinach.jpg</PackagePath>
+      <Modified>2013-09-01T13:44:55.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Stalk Celery.jpg">
+      <PackagePath>images\Vegetables\Stalk Celery.jpg</PackagePath>
+      <Modified>2013-09-01T13:37:20.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Sugar pumpkin.jpg">
+      <PackagePath>images\Vegetables\Sugar pumpkin.jpg</PackagePath>
+      <Modified>2013-09-01T13:55:15.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Summersquash.jpg">
+      <PackagePath>images\Vegetables\Summersquash.jpg</PackagePath>
+      <Modified>2013-09-01T13:54:26.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Sweet Potato.jpg">
+      <PackagePath>images\Vegetables\Sweet Potato.jpg</PackagePath>
+      <Modified>2013-09-01T13:34:20.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Tomato.jpg">
+      <PackagePath>images\Vegetables\Tomato.jpg</PackagePath>
+      <Modified>2013-09-01T13:55:09.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Truffles.jpg">
+      <PackagePath>images\Vegetables\Truffles.jpg</PackagePath>
+      <Modified>2013-09-01T13:49:13.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Turnip.jpg">
+      <PackagePath>images\Vegetables\Turnip.jpg</PackagePath>
+      <Modified>2013-09-01T13:33:07.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\White Asparagus.jpg">
+      <PackagePath>images\Vegetables\White Asparagus.jpg</PackagePath>
+      <Modified>2013-09-01T13:37:39.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\White Chanterelle.jpg">
+      <PackagePath>images\Vegetables\White Chanterelle.jpg</PackagePath>
+      <Modified>2013-09-01T13:49:05.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\White Mushrooms.jpg">
+      <PackagePath>images\Vegetables\White Mushrooms.jpg</PackagePath>
+      <Modified>2013-09-01T13:48:41.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\White Onion.jpg">
+      <PackagePath>images\Vegetables\White Onion.jpg</PackagePath>
+      <Modified>2013-09-01T13:39:40.145</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Winecap.jpg">
+      <PackagePath>images\Vegetables\Winecap.jpg</PackagePath>
+      <Modified>2013-09-01T13:48:46.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Woodear.jpg">
+      <PackagePath>images\Vegetables\Woodear.jpg</PackagePath>
+      <Modified>2013-09-01T13:48:59.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Vegetables\Yellowwax Beans.jpg">
+      <PackagePath>images\Vegetables\Yellowwax Beans.jpg</PackagePath>
+      <Modified>2013-09-01T13:46:32.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Intro.png">
+      <PackagePath>images\Intro.png</PackagePath>
+      <Modified>2013-09-03T20:01:35.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Intro1.png">
+      <PackagePath>images\Intro1.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T20:01:36.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <Modified>2013-09-03T20:01:35.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\RecipeSearch.png">
+      <PackagePath>images\RecipeSearch.png</PackagePath>
+      <Modified>2013-09-03T20:01:36.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T20:01:36.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2013-09-03T20:01:36.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T20:01:36.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\loadingAnim.gif">
+      <PackagePath>images\loadingAnim.gif</PackagePath>
+      <Modified>2013-09-03T20:01:35.805</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\mystery-food.jpeg">
+      <PackagePath>images\mystery-food.jpeg</PackagePath>
+      <Modified>2013-09-03T20:01:35.931</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\images\Tile image.jpeg">
+      <PackagePath>images\Tile image.jpeg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-03T20:01:36.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+      <Modified>2013-09-03T21:20:19.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-09-05T13:32:03.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\facebookApi.js">
+      <PackagePath>js\facebookApi.js</PackagePath>
+      <Modified>2013-09-03T20:01:36.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\models.js">
+      <PackagePath>js\models.js</PackagePath>
+      <Modified>2013-09-05T13:30:00.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+      <Modified>2013-09-03T20:01:36.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\remoteApiGetter.js">
+      <PackagePath>js\remoteApiGetter.js</PackagePath>
+      <Modified>2013-09-05T13:30:01.125</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\js\viewmodels.js">
+      <PackagePath>js\viewmodels.js</PackagePath>
+      <Modified>2013-09-05T13:48:31.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\add-new-product\add-new-product.js">
+      <PackagePath>pages\add-new-product\add-new-product.js</PackagePath>
+      <Modified>2013-09-03T20:01:36.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\add-product\add-product.js">
+      <PackagePath>pages\add-product\add-product.js</PackagePath>
+      <Modified>2013-09-03T20:01:36.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+      <Modified>2013-09-03T20:43:37.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\recipe-photo\pagecontrol.js">
+      <PackagePath>pages\recipe-photo\pagecontrol.js</PackagePath>
+      <Modified>2013-09-03T20:01:36.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\refrigerator\refrigerator.js">
+      <PackagePath>pages\refrigerator\refrigerator.js</PackagePath>
+      <Modified>2013-09-03T21:18:49.553</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\search-by-products\search-by-products.js">
+      <PackagePath>pages\search-by-products\search-by-products.js</PackagePath>
+      <Modified>2013-09-05T13:30:00.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\search-results\searc-results.js">
+      <PackagePath>pages\search-results\searc-results.js</PackagePath>
+      <Modified>2013-09-05T13:30:01.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\add-new-product\add-new-product.html">
+      <PackagePath>pages\add-new-product\add-new-product.html</PackagePath>
+      <Modified>2013-09-03T20:01:36.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\add-product\add-product.html">
+      <PackagePath>pages\add-product\add-product.html</PackagePath>
+      <Modified>2013-09-03T20:01:36.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+      <Modified>2013-09-03T20:01:36.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-09-03T20:01:35.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\recipe-photo\pagecontrol.html">
+      <PackagePath>pages\recipe-photo\pagecontrol.html</PackagePath>
+      <Modified>2013-09-03T20:01:36.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\refrigerator\refrigerator.html">
+      <PackagePath>pages\refrigerator\refrigerator.html</PackagePath>
+      <Modified>2013-09-03T20:01:36.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\search-by-products\search-by-products.html">
+      <PackagePath>pages\search-by-products\search-by-products.html</PackagePath>
+      <Modified>2013-09-03T20:01:37.168</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\pages\search-results\searc-results.html">
+      <PackagePath>pages\search-results\searc-results.html</PackagePath>
+      <Modified>2013-09-05T14:07:44.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\AllProducts.txt">
+      <PackagePath>productsData\AllProducts.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Diary.txt">
+      <PackagePath>productsData\Diary.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Fish.txt">
+      <PackagePath>productsData\Fish.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Flavoring.txt">
+      <PackagePath>productsData\Flavoring.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Fruits.txt">
+      <PackagePath>productsData\Fruits.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Grains.txt">
+      <PackagePath>productsData\Grains.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\groups.txt">
+      <PackagePath>productsData\groups.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.461</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Liquids.txt">
+      <PackagePath>productsData\Liquids.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Meat.txt">
+      <PackagePath>productsData\Meat.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Nuts.txt">
+      <PackagePath>productsData\Nuts.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\products.txt">
+      <PackagePath>productsData\products.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.432</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\productsData\Vegetables.txt">
+      <PackagePath>productsData\Vegetables.txt</PackagePath>
+      <Modified>2013-09-03T20:01:37.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kiro\Desktop\Win8Teamwork\Enywas app\Recipe\Recipe\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-09-05T02:57:05.903</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20789</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20789</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

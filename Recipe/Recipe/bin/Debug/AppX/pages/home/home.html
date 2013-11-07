@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to Recipe Finder</span>
+            </h1>
+        </header>
+
+        <section aria-label="Main content" role="main">
+            <div id="wrapper">
+                <div id="textContent" style="float: right; width: 87%; height: 90%;">
+                    <p style="padding: 3px">
+
+                        <br />
+                        <h2>Recipe Finder</h2>
+                        The application that will make cooking a breeze.
+                With Recipe Finder you can easily find recipes that you can cook 
+                based on your available products.
+
+                <br />
+                        You can also add products into the fridge and have searches based on them or to remind yourself 
+                what to buy.
+
+                <h2>Features</h2>
+                        <ul>
+                            <li>Search among thousand of recipes based on what products you have.
+                            </li>
+                            <li>List what products you have available at home.
+                            </li>
+                            <li>Take a picture of the finished product and share it.
+                            </li>
+                        </ul>
+                        <br />
+
+                        <h2>Getting started</h2>
+                        Using this application is exremely easy.
+                To search for recipes click the "Find me a recipe button".
+                <br />
+                        To see what products you have in your fridge just click the refrigerator button.
+                <br />
+                        To make a photo of the product click the camera button.
+
+                 <br />
+                        <br />
+                        <br />
+                        <br />
+                    </p>
+
+                </div>
+                <div id="buttons3" style="float: left; position: absolute">
+
+                    <button id="search-products-button" class="home-buttons" style="display: block; background-color: white">
+                        <img src="../../images/RecipeSearch.png" width="150" height="150" /></button>
+                    <button id="ref-button" class="home-buttons" style="display: block; background-color: white">
+                        <img src="../../images/refrigerator.jpg" height="150" width="150" /></button>
+                    <button id="photo" class="home-buttons" style="display: block; background-color: white">
+                        <img src="../../images/photo.JPG" height="150" width="150" />
+                    </button>
+                </div>
+            </div>
+            <div id="appbar-id" data-win-control="WinJS.UI.AppBar" data-win-options="">
+                <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{
+                    id:'cmdRestoreTooltips',
+                    label:'Restore tooltips',
+                    icon:'undo',
+                    section:'section',
+                    tooltip: 'Restore all tooltips'
+                    }">
+                </button>                
+                
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

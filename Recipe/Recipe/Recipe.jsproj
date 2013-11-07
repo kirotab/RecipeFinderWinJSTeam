@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>9e26fa85-5042-43ca-9af5-dd3dffe3ee6b</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <PackageCertificateKeyFile>Recipe_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\default.css" />
+    <Content Include="images\Dairy.jpg" />
+    <Content Include="images\Diary\Almond Milk.jpg" />
+    <Content Include="images\Diary\Butter.jpg" />
+    <Content Include="images\Diary\Cheddar.jpg" />
+    <Content Include="images\Diary\Cheese Slices.jpg" />
+    <Content Include="images\Diary\Cheese.jpg" />
+    <Content Include="images\Diary\Coconut Milk.jpg" />
+    <Content Include="images\Diary\Cow Milk.jpg" />
+    <Content Include="images\Diary\Duck Egg.jpg" />
+    <Content Include="images\Diary\Egg Yolks.jpg" />
+    <Content Include="images\Diary\Egg.jpg" />
+    <Content Include="images\Diary\Emmental Cheese.jpg" />
+    <Content Include="images\Diary\Fresh Cheese.jpg" />
+    <Content Include="images\Diary\Goat Milk.jpg" />
+    <Content Include="images\Diary\Jarlsburg Cheese.jpg" />
+    <Content Include="images\Diary\Margarine.jpg" />
+    <Content Include="images\Diary\Mozarella.jpg" />
+    <Content Include="images\Diary\powderedmilk.jpg" />
+    <Content Include="images\Diary\Quail Eggs.jpg" />
+    <Content Include="images\Diary\Roquefort Cheese.jpg" />
+    <Content Include="images\Diary\Sourcream.jpg" />
+    <Content Include="images\Diary\Soy Milk.jpg" />
+    <Content Include="images\Diary\swisscheese.jpg" />
+    <Content Include="images\Diary\Yogurt.jpg" />
+    <Content Include="images\egg.jpg" />
+    <Content Include="images\Fish.jpg" />
+    <Content Include="images\Fish\Anchovies.jpg" />
+    <Content Include="images\Fish\Caviar.jpg" />
+    <Content Include="images\Fish\Cod.jpg" />
+    <Content Include="images\Fish\Crab Sticks.jpg" />
+    <Content Include="images\Fish\Crab.jpg" />
+    <Content Include="images\Fish\Crayfish.jpg" />
+    <Content Include="images\Fish\Dories.jpg" />
+    <Content Include="images\Fish\Flatfish.jpg.jpg" />
+    <Content Include="images\Fish\Green Mussels.jpg" />
+    <Content Include="images\Fish\Lobster.jpg" />
+    <Content Include="images\Fish\Mullet.jpg" />
+    <Content Include="images\Fish\Mussels.jpg" />
+    <Content Include="images\Fish\Octopus.jpg" />
+    <Content Include="images\Fish\Porgy.jpg" />
+    <Content Include="images\Fish\Rockfish.jpg" />
+    <Content Include="images\Fish\Roughies.jpg" />
+    <Content Include="images\Fish\Salmon.jpg" />
+    <Content Include="images\Fish\Sardines.jpg" />
+    <Content Include="images\Fish\Shrimp Meat.jpg" />
+    <Content Include="images\Fish\Shrimp.jpg" />
+    <Content Include="images\Fish\Squid.jpg" />
+    <Content Include="images\Fish\Swamp Eel.jpg" />
+    <Content Include="images\Fish\Title Fish.jpg" />
+    <Content Include="images\Fish\Tuna.jpg" />
+    <Content Include="images\Fish\Whiteperch.jpg" />
+    <Content Include="images\Fish\Yellow Croaker.jpg" />
+    <Content Include="images\Flavoring.jpg" />
+    <Content Include="images\Flavoring\Baking Powder.jpg" />
+    <Content Include="images\Flavoring\Baking Soda.jpg" />
+    <Content Include="images\Flavoring\Chilly Powder.jpg" />
+    <Content Include="images\Flavoring\Cilantro.jpg" />
+    <Content Include="images\Flavoring\Cocoa Butter.jpg" />
+    <Content Include="images\Flavoring\Cocoa.jpg" />
+    <Content Include="images\Flavoring\Crushed Red Pepper.jpg" />
+    <Content Include="images\Flavoring\Dill.jpg" />
+    <Content Include="images\Flavoring\Dry Yeast.jpg" />
+    <Content Include="images\Flavoring\Fine Salt.jpg" />
+    <Content Include="images\Flavoring\Garlic Flakes.jpg" />
+    <Content Include="images\Flavoring\Garlic Powder.jpg" />
+    <Content Include="images\Flavoring\Garlic Salt.jpg" />
+    <Content Include="images\Flavoring\Garlic.jpg" />
+    <Content Include="images\Flavoring\Green Onions.jpg" />
+    <Content Include="images\Flavoring\mint.jpg" />
+    <Content Include="images\Flavoring\Olive Oil.jpg" />
+    <Content Include="images\Flavoring\Onion Powder.jpg" />
+    <Content Include="images\Flavoring\Onion.jpg" />
+    <Content Include="images\Flavoring\Palm Oil.jpg" />
+    <Content Include="images\Flavoring\Pepper Corns.jpg" />
+    <Content Include="images\Flavoring\Potash.jpg" />
+    <Content Include="images\Flavoring\Powder Sugar.jpg" />
+    <Content Include="images\Flavoring\Pumpkin Seeds.jpg" />
+    <Content Include="images\Flavoring\Red Pepper.jpg" />
+    <Content Include="images\Flavoring\Salt.jpg" />
+    <Content Include="images\Flavoring\Sasam Seeds.jpg" />
+    <Content Include="images\Flavoring\Sea Salt.jpg" />
+    <Content Include="images\Flavoring\Sugar.jpg" />
+    <Content Include="images\Flavoring\Sunflower Oil.jpg" />
+    <Content Include="images\Flavoring\Sunflower Seeds.jpg" />
+    <Content Include="images\Flavoring\sunflower-oil.jpg" />
+    <Content Include="images\Flavoring\Whitepepper Corns.jpg" />
+    <Content Include="images\Flavoring\Yeast Extract.jpg" />
+    <Content Include="images\Flavoring\Yeast.jpg" />
+    <Content Include="images\Fruits.jpg" />
+    <Content Include="images\Fruits\Apple.jpg" />
+    <Content Include="images\Fruits\Apricot Jam.jpg" />
+    <Content Include="images\Fruits\Apricot.jpg" />
+    <Content Include="images\Fruits\Bananas.jpg" />
+    <Content Include="images\Fruits\Berries.jpg" />
+    <Content Include="images\Fruits\Blackberries.jpg" />
+    <Content Include="images\Fruits\Blackcurrant Jelly.jpg" />
+    <Content Include="images\Fruits\Blackcurrants.jpg" />
+    <Content Include="images\Fruits\Blueberries.jpg" />
+    <Content Include="images\Fruits\Blueberry Jam.jpg" />
+    <Content Include="images\Fruits\Carambola.jpg" />
+    <Content Include="images\Fruits\Cherries.jpg" />
+    <Content Include="images\Fruits\Coconut.jpg" />
+    <Content Include="images\Fruits\Cranberries.jpg" />
+    <Content Include="images\Fruits\Dates.jpg" />
+    <Content Include="images\Fruits\Dried Apples.jpg" />
+    <Content Include="images\Fruits\Dried Apricots.jpg" />
+    <Content Include="images\Fruits\Dried Bannana Chips.jpg" />
+    <Content Include="images\Fruits\Dried Cherries.jpg" />
+    <Content Include="images\Fruits\Dried Fruit.jpg" />
+    <Content Include="images\Fruits\Figs.jpg" />
+    <Content Include="images\Fruits\Golden Raisins.jpg" />
+    <Content Include="images\Fruits\Grapefruit.jpg" />
+    <Content Include="images\Fruits\Grapes.jpg" />
+    <Content Include="images\Fruits\Green Apple.jpg" />
+    <Content Include="images\Fruits\Huckleberries.jpg" />
+    <Content Include="images\Fruits\Kiwi.jpg" />
+    <Content Include="images\Fruits\Lemon.jpg" />
+    <Content Include="images\Fruits\Lime.jpg" />
+    <Content Include="images\Fruits\Mandarin Orange.jpg" />
+    <Content Include="images\Fruits\Mango.jpg" />
+    <Content Include="images\Fruits\Marmalade.jpg" />
+    <Content Include="images\Fruits\Melon.jpg" />
+    <Content Include="images\Fruits\Nectarine.jpg" />
+    <Content Include="images\Fruits\Orange.jpg" />
+    <Content Include="images\Fruits\Papaya.jpg" />
+    <Content Include="images\Fruits\Peach.jpg" />
+    <Content Include="images\Fruits\Pear.jpg" />
+    <Content Include="images\Fruits\Pineapple.jpg" />
+    <Content Include="images\Fruits\Plums.jpg" />
+    <Content Include="images\Fruits\Pomegranates.jpg" />
+    <Content Include="images\Fruits\Pomello.jpg" />
+    <Content Include="images\Fruits\Quince.jpg" />
+    <Content Include="images\Fruits\Raspberry Jam.jpg" />
+    <Content Include="images\Fruits\Red Muscat Grapes.jpg" />
+    <Content Include="images\Fruits\Red Raspberries.jpg" />
+    <Content Include="images\Fruits\Redcurrant Jelly.jpg" />
+    <Content Include="images\Fruits\Redcurrants.jpg" />
+    <Content Include="images\Fruits\Sour Cherries.jpg" />
+    <Content Include="images\Fruits\Strawberries.jpg" />
+    <Content Include="images\Fruits\Strawberry Jam.jpg" />
+    <Content Include="images\Fruits\Watermelon.jpg" />
+    <Content Include="images\Grains.jpg" />
+    <Content Include="images\Grains\Asian Rice Noodles.jpg" />
+    <Content Include="images\Grains\Baby Corn.jpg" />
+    <Content Include="images\Grains\Beans.jpg" />
+    <Content Include="images\Grains\Bread Dough.jpg" />
+    <Content Include="images\Grains\Chinese Egg Noodles.jpg" />
+    <Content Include="images\Grains\Corn.jpg" />
+    <Content Include="images\Grains\Flour.jpg" />
+    <Content Include="images\Grains\Insta Blending Flour.jpg" />
+    <Content Include="images\Grains\Long Brown Rice.jpg" />
+    <Content Include="images\Grains\Oats.jpg" />
+    <Content Include="images\Grains\Pancitcanton.jpg" />
+    <Content Include="images\Grains\Pasta Rods.jpg" />
+    <Content Include="images\Grains\Pasta Shapes.jpg" />
+    <Content Include="images\Grains\Pasta Tubes.jpg" />
+    <Content Include="images\Grains\Pastry Flour.jpg" />
+    <Content Include="images\Grains\Pectin.jpg" />
+    <Content Include="images\Grains\Ravioli.jpg" />
+    <Content Include="images\Grains\Soup Pasta.jpg" />
+    <Content Include="images\Grains\Sweet Corn.jpg" />
+    <Content Include="images\Grains\Tagliarini.jpg" />
+    <Content Include="images\Grains\Wheat.jpg" />
+    <Content Include="images\Grains\White Rice.jpg" />
+    <Content Include="images\Intro.png" />
+    <Content Include="images\Intro1.png" />
+    <Content Include="images\Liquids.jpg" />
+    <Content Include="images\Liquids\Balsamic Vinegar.jpg" />
+    <Content Include="images\Liquids\Beer.jpg" />
+    <Content Include="images\Liquids\Bourbon Whiskey.jpg" />
+    <Content Include="images\Liquids\Brandy.jpg" />
+    <Content Include="images\Liquids\Canadianwhiskey.jpg" />
+    <Content Include="images\Liquids\Creme De Cassis.jpg" />
+    <Content Include="images\Liquids\Darkrum.jpg" />
+    <Content Include="images\Liquids\Gin.jpg" />
+    <Content Include="images\Liquids\Goldrum.jpg" />
+    <Content Include="images\Liquids\Irish Whiskey.jpg" />
+    <Content Include="images\Liquids\Lightrum.jpg" />
+    <Content Include="images\Liquids\Plain Water.jpg" />
+    <Content Include="images\Liquids\Red Wine.jpg" />
+    <Content Include="images\Liquids\Redraspberry Vinegar.jpg" />
+    <Content Include="images\Liquids\Redwine Vinegar.jpg" />
+    <Content Include="images\Liquids\Scotch Whisky.jpg" />
+    <Content Include="images\Liquids\Seltzer Water.jpg" />
+    <Content Include="images\Liquids\Tarragon Vinegar.jpg" />
+    <Content Include="images\Liquids\Tennessee whiskey.jpg" />
+    <Content Include="images\Liquids\Tequila.jpg" />
+    <Content Include="images\Liquids\Vinegar.jpg" />
+    <Content Include="images\Liquids\Vodka.jpg" />
+    <Content Include="images\loadingAnim.gif" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\Meat.jpg" />
+    <Content Include="images\Meat\Bacon.jpg" />
+    <Content Include="images\Meat\Beef.jpg" />
+    <Content Include="images\Meat\Canadian bacon.jpg" />
+    <Content Include="images\Meat\Chicken.jpg" />
+    <Content Include="images\Meat\Duck.jpg" />
+    <Content Include="images\Meat\Giblets.jpg" />
+    <Content Include="images\Meat\Goose.jpg" />
+    <Content Include="images\Meat\Ground Chicken.jpg" />
+    <Content Include="images\Meat\Ground Lamb.jpg" />
+    <Content Include="images\Meat\Ground Ostrich.jpg" />
+    <Content Include="images\Meat\Ground Pork.jpg" />
+    <Content Include="images\Meat\Ground Turkey.jpg" />
+    <Content Include="images\Meat\Ground Veal.jpg" />
+    <Content Include="images\Meat\Hamsteak.jpg" />
+    <Content Include="images\Meat\Lamb Ribs.jpg" />
+    <Content Include="images\Meat\Lamb.jpg" />
+    <Content Include="images\Meat\Pork.jpg" />
+    <Content Include="images\Meat\Turkey.jpg" />
+    <Content Include="images\Meat\Veal.jpg" />
+    <Content Include="images\mystery-food.jpeg" />
+    <Content Include="images\Nuts.jpg" />
+    <Content Include="images\Nuts\Acorns.jpg" />
+    <Content Include="images\Nuts\Almonds.jpg" />
+    <Content Include="images\Nuts\Cashews.jpg" />
+    <Content Include="images\Nuts\Chestnuts.jpg" />
+    <Content Include="images\Nuts\Hazelnuts.jpg" />
+    <Content Include="images\Nuts\Peanuts.jpg" />
+    <Content Include="images\Nuts\Pistachio Nuts.jpg" />
+    <Content Include="images\Nuts\Walnuts.jpg" />
+    <Content Include="images\photo.JPG" />
+    <Content Include="images\RecipeSearch.png" />
+    <Content Include="images\redone.jpg" />
+    <Content Include="images\refrigerator.jpg" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\Tile image.jpeg" />
+    <Content Include="images\tomato.jpg" />
+    <Content Include="images\Vegetables.jpg" />
+    <Content Include="images\Vegetables\Artichoke.jpg" />
+    <Content Include="images\Vegetables\Arugula.jpg" />
+    <Content Include="images\Vegetables\Asian Squash.jpg" />
+    <Content Include="images\Vegetables\Asparagus.jpg" />
+    <Content Include="images\Vegetables\Avocado.jpg" />
+    <Content Include="images\Vegetables\Baby Ginger.jpg" />
+    <Content Include="images\Vegetables\Baby Potatoes.jpg" />
+    <Content Include="images\Vegetables\Bamia.jpg" />
+    <Content Include="images\Vegetables\Bean Sprouts.jpg" />
+    <Content Include="images\Vegetables\Beans Romano.jpg" />
+    <Content Include="images\Vegetables\Bermuda onion.jpg" />
+    <Content Include="images\Vegetables\Blackradish.jpg" />
+    <Content Include="images\Vegetables\Brocco flower.jpg" />
+    <Content Include="images\Vegetables\Broccoli Sprouts.jpg" />
+    <Content Include="images\Vegetables\Broccoli.jpg" />
+    <Content Include="images\Vegetables\Broccolini.jpg" />
+    <Content Include="images\Vegetables\Burdock.jpg" />
+    <Content Include="images\Vegetables\Butter Lettuce.jpg" />
+    <Content Include="images\Vegetables\Cabbage.jpg" />
+    <Content Include="images\Vegetables\Carrot.jpg" />
+    <Content Include="images\Vegetables\Cauliflower.jpg" />
+    <Content Include="images\Vegetables\Celeryroot.jpg" />
+    <Content Include="images\Vegetables\Cherry Tomatoes.jpg" />
+    <Content Include="images\Vegetables\Chilly Peppers.jpg" />
+    <Content Include="images\Vegetables\Cubanelle Pepper.jpg" />
+    <Content Include="images\Vegetables\Cucumber.jpg" />
+    <Content Include="images\Vegetables\Daikon.jpg" />
+    <Content Include="images\Vegetables\Dandelion Greens.jpg" />
+    <Content Include="images\Vegetables\Dried Chilly Peppers.jpg" />
+    <Content Include="images\Vegetables\Eggplant.jpg" />
+    <Content Include="images\Vegetables\Escarole.jpg" />
+    <Content Include="images\Vegetables\Fresh Beans.jpg" />
+    <Content Include="images\Vegetables\Garlic.jpg" />
+    <Content Include="images\Vegetables\Gingerroot.jpg" />
+    <Content Include="images\Vegetables\Green Beans.jpg" />
+    <Content Include="images\Vegetables\Green Olives.jpg" />
+    <Content Include="images\Vegetables\Green Onions.jpg" />
+    <Content Include="images\Vegetables\Greenleaf Lettuce.jpg" />
+    <Content Include="images\Vegetables\Iceberg Lettuce.jpg" />
+    <Content Include="images\Vegetables\Kirby Cucumber.jpg" />
+    <Content Include="images\Vegetables\Lettuce.jpg" />
+    <Content Include="images\Vegetables\Limestone Lettuce.jpg" />
+    <Content Include="images\Vegetables\Lotus Root.jpg" />
+    <Content Include="images\Vegetables\Mesclun Salad.jpg" />
+    <Content Include="images\Vegetables\Mizuna.jpg" />
+    <Content Include="images\Vegetables\Olives.jpg" />
+    <Content Include="images\Vegetables\Onion.jpg" />
+    <Content Include="images\Vegetables\Parsleyroot.jpg" />
+    <Content Include="images\Vegetables\Parsnip.jpg" />
+    <Content Include="images\Vegetables\Pepper Redbell.jpg" />
+    <Content Include="images\Vegetables\Potatoes.jpg" />
+    <Content Include="images\Vegetables\Puffballs.jpg" />
+    <Content Include="images\Vegetables\Radish.jpg" />
+    <Content Include="images\Vegetables\Red Lettuce.jpg" />
+    <Content Include="images\Vegetables\Redcabbage.jpg" />
+    <Content Include="images\Vegetables\Redonion.jpg" />
+    <Content Include="images\Vegetables\Rutabaga.jpg" />
+    <Content Include="images\Vegetables\Spinach.jpg" />
+    <Content Include="images\Vegetables\Stalk Celery.jpg" />
+    <Content Include="images\Vegetables\Sugar pumpkin.jpg" />
+    <Content Include="images\Vegetables\Summersquash.jpg" />
+    <Content Include="images\Vegetables\Sweet Potato.jpg" />
+    <Content Include="images\Vegetables\Tomato.jpg" />
+    <Content Include="images\Vegetables\Truffles.jpg" />
+    <Content Include="images\Vegetables\Turnip.jpg" />
+    <Content Include="images\Vegetables\White Asparagus.jpg" />
+    <Content Include="images\Vegetables\White Chanterelle.jpg" />
+    <Content Include="images\Vegetables\White Mushrooms.jpg" />
+    <Content Include="images\Vegetables\White Onion.jpg" />
+    <Content Include="images\Vegetables\Winecap.jpg" />
+    <Content Include="images\Vegetables\Woodear.jpg" />
+    <Content Include="images\Vegetables\Yellowwax Beans.jpg" />
+    <Content Include="js\data.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\facebookApi.js" />
+    <Content Include="js\models.js" />
+    <Content Include="js\navigator.js" />
+    <Content Include="js\remoteApiGetter.js" />
+    <Content Include="js\viewmodels.js" />
+    <Content Include="pages\add-new-product\add-new-product.css" />
+    <Content Include="pages\add-new-product\add-new-product.html" />
+    <Content Include="pages\add-new-product\add-new-product.js" />
+    <Content Include="pages\add-product\add-product.css" />
+    <Content Include="pages\add-product\add-product.html" />
+    <Content Include="pages\add-product\add-product.js" />
+    <Content Include="pages\home\home.css" />
+    <Content Include="pages\home\home.html" />
+    <Content Include="pages\home\home.js" />
+    <Content Include="default.html" />
+    <Content Include="pages\recipe-photo\pagecontrol.css" />
+    <Content Include="pages\recipe-photo\pagecontrol.html" />
+    <Content Include="pages\recipe-photo\pagecontrol.js" />
+    <Content Include="pages\refrigerator\refrigerator.css" />
+    <Content Include="pages\refrigerator\refrigerator.html" />
+    <Content Include="pages\refrigerator\refrigerator.js" />
+    <Content Include="pages\search-by-products\search-by-products.css" />
+    <Content Include="pages\search-by-products\search-by-products.html" />
+    <Content Include="pages\search-by-products\search-by-products.js" />
+    <Content Include="pages\search-results\searc-results.css" />
+    <Content Include="pages\search-results\searc-results.html" />
+    <Content Include="pages\search-results\searc-results.js" />
+    <Content Include="productsData\AllProducts.txt" />
+    <Content Include="productsData\Diary.txt" />
+    <Content Include="productsData\Fish.txt" />
+    <Content Include="productsData\Flavoring.txt" />
+    <Content Include="productsData\Fruits.txt" />
+    <Content Include="productsData\Grains.txt" />
+    <Content Include="productsData\groups.txt" />
+    <Content Include="productsData\Liquids.txt" />
+    <Content Include="productsData\Meat.txt" />
+    <Content Include="productsData\Nuts.txt" />
+    <Content Include="productsData\products.txt" />
+    <Content Include="productsData\Vegetables.txt" />
+    <None Include="Recipe_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

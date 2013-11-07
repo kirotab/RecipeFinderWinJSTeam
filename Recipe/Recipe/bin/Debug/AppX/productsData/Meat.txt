@@ -1,0 +1,19 @@
+Meat, Bacon, /images/Meat/bacon.jpg
+Meat, Canadian bacon, /images/Meat/canadianbacon.jpg
+Meat, Duck, /images/Meat/duck.jpg
+Meat, Giblets, /images/Meat/giblets.jpg
+Meat, Goose, /images/Meat/goose.jpg
+Meat, Ground Chicken, /images/Meat/groundchicken.jpg
+Meat, Ground Lamb, /images/Meat/groundlamb.jpg
+Meat, Ground Ostrich, /images/Meat/groundostrich.jpg
+Meat, Ground Pork, /images/Meat/groundpork.jpg
+Meat, Ground Turkey, /images/Meat/groundturkey.jpg
+Meat, Ground Veal, /images/Meat/groundveal.jpg
+Meat, Hamsteak, /images/Meat/hamsteak.jpg
+Meat, Lamb Ribs, /images/Meat/lambribroast2.jpg
+Meat, Lamb, /images/Meat/lambroundbonechop.jpg
+Meat, Pork, /images/Meat/porkribcentercutchop.jpg
+Meat, Chicken, /images/Meat/roastingchicken.jpg
+Meat, Beef, /images/Meat/sirloinsteakbeef.jpg
+Meat, Turkey, /images/Meat/turkey.jpg
+Meat, Veal, /images/Meat/vealscallopini.jpg

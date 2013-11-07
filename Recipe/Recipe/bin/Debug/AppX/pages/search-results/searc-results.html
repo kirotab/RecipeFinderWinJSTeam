@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="ms-design-extensionType" content="Search" />
+    <title>Search Contract</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/search-results/searc_results.css" rel="stylesheet" />
+    <script src="/js/data.js"></script>
+    <style>
+        
+        /** {
+            margin:0;
+            padding:0;
+        }
+        *:hover {
+            border: 2px black solid;
+        }*/
+        /*#listView .resultslist .win-selectionstylefilled .win-listview .win-container{
+        #listView.resultslist.win-selectionstylefilled.win-listview
+        #resultslist.win-listview .win-container {*/
+        /*style="background-color:green;border:1px solid yellow*/
+        
+        #resultslist.win-listview .win-container {
+            display:inline-block;
+            position: relative !important;
+            width: 250px !important;
+            height: 100px;
+            top: 0px !important;
+            left: 0px !important;
+            margin: 3px;
+            padding: 0;
+            float: left;
+        }
+        #resultslist .item-template{
+        height: 100px; 
+        width: 250px;
+        /*background-color: cyan !important;*/
+        display:inline-block !important;
+        margin: 0;
+        padding: 0;
+        }
+        
+        #resultslist.win-listview{
+            /*position:absolute;top:2%;left:1%;bottom:2%;*/
+            width:40%;
+            /*height:400px;
+            max-height: 400px;
+            min-height: 400px;*/
+            height:400px;
+            max-height: 550px;
+            min-height: 300px;
+            padding: 0;
+            max-width: 40%;
+            min-width:550px !important;
+            /*background-color: blue;*/
+            /*overflow-y:auto !important;*/
+            /*border:1px solid blue;*/
+
+        }
+        #section {
+            height:100%;
+            width:50%;
+            top:0;
+            left:0;
+            padding-left:8%;
+            /*background-color: red;*/
+            /*padding-left: 100px;*/
+            /*border:1px solid blue;*/
+        }
+        #frameDiv {
+            position:fixed;
+            top:5%;right:2%;bottom:5%;width:48%;
+            background-color: white;
+            visibility:hidden;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            background-position-y: center;
+            background-color:white;
+        }
+        #frame {
+            height:100%;
+            width:100%;
+        }
+        /*#resultslist .win-listview {
+            height:400px;
+            max-height: 400px;
+            min-height: 400px;
+        }*/
+        #resultslist .win-viewport{
+            height: 95%;
+            max-height: 550px;
+            min-height: 300px;
+        }
+        #resultslist .win-viewport.win-vertical {
+        }
+
+        #resultslist .win-surface {
+            height:550px;
+            max-height: 550px;
+            min-height: 550px;
+            padding:0;
+            overflow:hidden;
+            }
+        #prev-page-button {
+            width:40%;
+        }
+        #next-page-button {
+            width:40%;
+        }
+        .item-name {
+            padding: 10px 10px 10px 10px;
+            margin: 0 0 0 100px;
+            text-align: left;
+            display: inline-block;
+            overflow-x: auto;
+            overflow-y: auto;
+            height: 70px;
+            width: 130px;
+        }
+        .item-image-and-name {
+            background-repeat: no-repeat;
+            height: 100px;
+            width: 250px;
+            background-size: 100px 100px;
+            background-position: top left;
+        }
+    </style>
+</head>
+<body>
+    <div id="recipe-template" data-win-control="WinJS.Binding.Template">
+        <div class="item-template">
+            <!--name MyConverters.toolTip-->
+            <div data-win-bind="title: ingredients MyConverters.toolTip;">
+                <div class="item-image-and-name"
+                    data-win-bind="style.backgroundImage : thumbUrl MyConverters.cssUrl;">
+                    <span class="item-name" data-win-bind="innerText:name"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="searc_results fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <div class="titlearea">
+                <h1 class="pagetitle win-type-ellipsis">Found Recipes</h1>
+                <h2 class="pagesubtitle win-type-ellipsis"></h2>
+            </div>
+        </header>
+        <section aria-label="Main content" role="main" id="section">
+            <div id="paging-button-wrapper">
+                <div id="resultslist" aria-label="Search results"
+                
+                    data-win-control="WinJS.UI.ListView"
+                    data-win-options="{ 
+                        itemDataSource : ViewModels.foundRecipes.dataSource,
+                        itemTemplate : select('#recipe-template'),
+                        selectionMode: 'none',
+                        tapBehavior: 'invokeOnly',
+                        layout: { type: WinJS.UI.ListLayout }
+                    }"></div>
+            <!--<p>Click on the name of the recipe in the list to visualise it in the window to the right</p>-->
+            
+                <button id="prev-page-button">Prev page</button>
+                <button id="next-page-button">Next page</button>
+                
+                <div id="frameDiv">
+                    <iframe name="targetFrame" id="frame"></iframe>
+                </div>
+            </div>
+            <p >
+              Click on the recipes that you like.
+                <br />
+                The instruction how to make them will appear to the right.
+                <br />
+                You can navigate with the buttons to see different recipes.
+                <br />
+                Have fun and explore the wonderful world of cooking.
+            </p>
+        </section>
+    </div>
+</body>
+</html>
